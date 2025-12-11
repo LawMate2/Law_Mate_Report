@@ -1,0 +1,107 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+env/
+venv/
+ENV/
+.venv/
+
+# Environment variables & Secrets
+.env
+.env.local
+secrets.json
+credentials.json
+config.ini
+
+# Vector store data
+chroma_db/
+*.faiss
+*.index
+qdrant_storage/
+milvus_data/
+weaviate_data/
+elasticsearch_data/
+redis_data/
+
+# Docker volumes
+volumes/
+
+# Results and plots (전체 results 디렉토리)
+results/
+logs/
+*.log
+
+# PDF files (대용량 파일)
+data/*.pdf
+*.pdf
+
+# Model caches
+.cache/
+models/
+checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# OS - macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+
+# OS - Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Test & Coverage
+.pytest_cache/
+.tox/
+.coverage
+htmlcov/
+coverage/
+test_results/
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
